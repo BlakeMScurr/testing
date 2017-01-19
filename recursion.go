@@ -20,5 +20,5 @@ func main() {
 	if err != nil {
 		fmt.Println(err.Error())
 	}
-	fmt.println(fib(input))
+	fmt.println(fibonacci(input))
 }
